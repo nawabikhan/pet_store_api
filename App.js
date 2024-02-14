@@ -18,7 +18,7 @@ const options = {
             version: '1.0.0'
         },
         servers: [{
-            url: 'http://localhost:8080/'
+            url: 'https://pet-store.cyclic.app/'
         }]
     },
     apis: ['./routes/pet.route.js']
