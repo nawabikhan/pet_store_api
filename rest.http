@@ -1,0 +1,25 @@
+GET http://localhost:3000/pets
+
+### create a pet
+POST http://localhost:3000/pets
+Content-Type: application/json
+
+{
+    "name": "Jack",
+    "breed": "Siberian Huskey",
+    "age": "2 years",
+    "isVaccinated":true,
+    "color":"black/gray"
+}
+### get single pet
+GET  http://localhost:3000/pets/id
+
+### update single pet
+PATCH   http://localhost:3000/pets/id
+
+### delete single pet
+DELETE   http://localhost:3000/pets/id
+
+### delete single pet
+DELETE   http://localhost:3000/pets/
+
