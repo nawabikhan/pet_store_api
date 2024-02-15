@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const pets = require('./routes/pet.route')
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUI = require('swagger-ui-express');
-const PORT = process.env.PORT | 8080;
+const PORT = process.env.PORT | 5000;
 app.use(express.json())
 // app.use(express.urlencoded({extended:true}))
 mongoose.connect('mongodb+srv://pet_store:ahQ3EqTB0djEl7m0@cluster0.ypmkoae.mongodb.net/pet_store').then(() => {
